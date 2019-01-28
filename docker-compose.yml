@@ -1,0 +1,19 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: "3.1"
+
+services:
+    python-spark:
+      stdin_open: true
+      tty: true
+      image: spark_python-spark:latest
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: python-spark
+      working_dir: /app
+      volumes:
+        - ./app:/app
+
+
