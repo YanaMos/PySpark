@@ -1,6 +1,5 @@
-# Xgboost
+# Docker build
 
-# install xgboost
 ```
 in folder with docker-compose.yml
 run: 
